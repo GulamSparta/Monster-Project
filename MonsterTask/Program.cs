@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.IO;
 
 namespace MonsterTask
 {
@@ -23,7 +24,8 @@ namespace MonsterTask
             Monster s2 = new Monster("1", "2", "3", "4", "5");
             MonsterCohourt MH = new MonsterCohourt();
             MH.addMonster(s1);
-
+            MH.addMonster(s2);
+            MH.listMonster();
             Console.Read();
         }
     }
@@ -71,6 +73,12 @@ namespace MonsterTask
             {
                 Console.WriteLine(m.id);
             }
+        }
+
+        public void importMonster()
+        {
+            //Creates the read stream
+
         }
 
     }
