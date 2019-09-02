@@ -25,6 +25,7 @@ namespace MonsterTask
             MonsterCohourt MH = new MonsterCohourt();
             MH.addMonster(s1);
             MH.addMonster(s2);
+            MH.importMonster();
             MH.listMonster();
             Console.Read();
         }
@@ -78,7 +79,16 @@ namespace MonsterTask
         public void importMonster()
         {
             //Creates the read stream
+            StreamReader file = new StreamReader (@"C:\Users\Monster_Students.txt");
 
+            string line; //Stores the data in this var
+
+            while ((line = file.ReadLine()) != null) {
+                string[] words = line.Split(',');
+                listOfMonster.Add(new Monster(words[0], words[1], words[2], words[3], words[4]));
+            }
+
+            file.Close();
         }
 
     }
