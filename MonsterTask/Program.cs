@@ -14,6 +14,17 @@ namespace MonsterTask
             {
                 Console.WriteLine("Jump");
             }
+
+            if (Monster.Scare() == true)
+            {
+                Console.WriteLine("Scared");
+            }
+            Monster s1 = new Monster("1", "2", "3", "4", "5");
+            Monster s2 = new Monster("1", "2", "3", "4", "5");
+            MonsterCohourt MH = new MonsterCohourt();
+            MH.addMonster(s1);
+
+            Console.Read();
         }
     }
 

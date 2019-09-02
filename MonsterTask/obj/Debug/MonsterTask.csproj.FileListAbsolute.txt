@@ -1,0 +1,6 @@
+C:\Users\Gulam �Qasim\Documents\C# Main Folder Projects\Main folder\Week 4\MonsterTask\MonsterTask\MonsterTask\bin\Debug\MonsterTask.exe
+C:\Users\Gulam �Qasim\Documents\C# Main Folder Projects\Main folder\Week 4\MonsterTask\MonsterTask\MonsterTask\bin\Debug\MonsterTask.pdb
+C:\Users\Gulam �Qasim\Documents\C# Main Folder Projects\Main folder\Week 4\MonsterTask\MonsterTask\MonsterTask\obj\Debug\MonsterTask.csprojAssemblyReference.cache
+C:\Users\Gulam �Qasim\Documents\C# Main Folder Projects\Main folder\Week 4\MonsterTask\MonsterTask\MonsterTask\obj\Debug\MonsterTask.csproj.CoreCompileInputs.cache
+C:\Users\Gulam �Qasim\Documents\C# Main Folder Projects\Main folder\Week 4\MonsterTask\MonsterTask\MonsterTask\obj\Debug\MonsterTask.exe
+C:\Users\Gulam �Qasim\Documents\C# Main Folder Projects\Main folder\Week 4\MonsterTask\MonsterTask\MonsterTask\obj\Debug\MonsterTask.pdb
